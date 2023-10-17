@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Negocio
 {
-    internal class clsConexion
+    public class clsConexion
     {
+        public SqlConnection connection = new SqlConnection("Data Source=AP-SE105-15\\SQLEXPRESS;Initial Catalog=dbs_prestamos_deportivos;Integrated Security=True");
     }
 }

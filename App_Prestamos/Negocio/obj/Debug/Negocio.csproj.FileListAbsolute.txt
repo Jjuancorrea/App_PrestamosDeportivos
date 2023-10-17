@@ -1,0 +1,6 @@
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Negocio\bin\Debug\Negocio.dll
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Negocio\bin\Debug\Negocio.pdb
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Negocio\obj\Debug\Negocio.dll
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Negocio\obj\Debug\Negocio.pdb

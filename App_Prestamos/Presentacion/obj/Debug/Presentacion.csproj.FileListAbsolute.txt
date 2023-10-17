@@ -1,0 +1,14 @@
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\bin\Debug\MaterialSkin.dll
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\obj\Debug\Presentacion.frmModuloUsuarios.resources
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\bin\Debug\Negocio.dll
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\bin\Debug\Negocio.pdb
