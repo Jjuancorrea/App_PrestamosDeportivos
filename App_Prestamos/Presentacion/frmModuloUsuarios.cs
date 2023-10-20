@@ -36,7 +36,14 @@ namespace Presentacion
 
         private void materialButton3_Click(object sender, EventArgs e)
         {
-
+            txtIdentificacion.Clear();
+                txtPnombre.Clear();
+                txtSnombre.Clear();
+                txtPapellido.Clear();
+                txtSapellido.Clear();
+                txtContacto.Clear();
+                txtCorreo.Clear();
+                txtDireccion.Clear();        
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)

@@ -73,12 +73,12 @@
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel1.Location = new System.Drawing.Point(219, 22);
+            this.materialLabel1.Location = new System.Drawing.Point(179, 23);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(156, 19);
+            this.materialLabel1.Size = new System.Drawing.Size(246, 19);
             this.materialLabel1.TabIndex = 1;
-            this.materialLabel1.Text = "Formulario de registro";
+            this.materialLabel1.Text = "Formulario de registro de personas";
             // 
             // txtPnombre
             // 
@@ -290,7 +290,7 @@
             this.cbxSexo.DropDownHeight = 174;
             this.cbxSexo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxSexo.DropDownWidth = 121;
-            this.cbxSexo.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.cbxSexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.cbxSexo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.cbxSexo.FormattingEnabled = true;
             this.cbxSexo.Hint = "Sexo";

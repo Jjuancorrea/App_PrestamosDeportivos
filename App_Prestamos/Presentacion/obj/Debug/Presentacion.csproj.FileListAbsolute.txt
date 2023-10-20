@@ -12,3 +12,4 @@ C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Pres
 C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\obj\Debug\Presentacion.pdb
 C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\bin\Debug\Negocio.dll
 C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\obj\Debug\Presentacion.frm_implementos.resources
