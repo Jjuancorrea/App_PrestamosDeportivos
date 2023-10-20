@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Presentacion
 {
-    public partial class frm_implementos : Form
+    public partial class frm_prestamos : Form
     {
-        public frm_implementos()
+        public frm_prestamos()
         {
             InitializeComponent();
         }
@@ -22,14 +22,21 @@ namespace Presentacion
 
         }
 
+        private void txtExistencias_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnNuevo_Click(object sender, EventArgs e)
         {
-            txtCodigo.Clear();
-            txtCantidad.Clear();
-            txtDescripcion.Clear();
+            txtIdentificacion.Clear();
             txtNombre.Clear();
-            txtValor.Clear();
-            txtCodigo.Focus();
+            txtCodigoImplemento.Clear();
+            txtDescripcion.Clear();
+            txtExistencias.Clear();
+            txtDescripcionImplemento.Clear();
+            txtCantidadPrestamo.Clear();
+            txtIdentificacion.Focus();
         }
     }
 }

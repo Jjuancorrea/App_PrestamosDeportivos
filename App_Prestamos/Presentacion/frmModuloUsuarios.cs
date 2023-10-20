@@ -43,7 +43,8 @@ namespace Presentacion
                 txtSapellido.Clear();
                 txtContacto.Clear();
                 txtCorreo.Clear();
-                txtDireccion.Clear();        
+                txtDireccion.Clear();      
+            txtIdentificacion.Focus();
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
