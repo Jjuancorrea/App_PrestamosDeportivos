@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Presentacion
 {
-    public partial class frm_prestamos : Form
+    public partial class dtg_prestamos : Form
     {
-        public frm_prestamos()
+        public dtg_prestamos()
         {
             InitializeComponent();
         }
@@ -36,6 +36,7 @@ namespace Presentacion
             txtExistencias.Clear();
             txtDescripcionImplemento.Clear();
             txtCantidadPrestamo.Clear();
+            dtg_prestamo.DataSource = null;
             txtIdentificacion.Focus();
         }
     }

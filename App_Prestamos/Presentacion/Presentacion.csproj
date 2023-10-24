@@ -55,11 +55,27 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dbs_prestamos_deportivosDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="dbs_prestamos_deportivosDTG_Estado.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbs_prestamos_deportivosDTG_Estado.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbs_prestamos_deportivosDTG_Rol.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbs_prestamos_deportivosDTG_Rol.xsd</DependentUpon>
+    </Compile>
     <Compile Include="frmModuloUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmModuloUsuarios.Designer.cs">
       <DependentUpon>frmModuloUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_estado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_estado.Designer.cs">
+      <DependentUpon>frm_estado.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_implementos.cs">
       <SubType>Form</SubType>
@@ -67,22 +83,52 @@
     <Compile Include="frm_implementos.Designer.cs">
       <DependentUpon>frm_implementos.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.Designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_prestamos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_prestamos.Designer.cs">
       <DependentUpon>frm_prestamos.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_rol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_rol.Designer.cs">
+      <DependentUpon>frm_rol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_sexo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_sexo.Designer.cs">
+      <DependentUpon>frm_sexo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmModuloUsuarios.resx">
       <DependentUpon>frmModuloUsuarios.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_estado.resx">
+      <DependentUpon>frm_estado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_implementos.resx">
       <DependentUpon>frm_implementos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_prestamos.resx">
       <DependentUpon>frm_prestamos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_rol.resx">
+      <DependentUpon>frm_rol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_sexo.resx">
+      <DependentUpon>frm_sexo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -103,6 +149,28 @@
     </None>
     <None Include="dbs_prestamos_deportivosDataSet.xss">
       <DependentUpon>dbs_prestamos_deportivosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbs_prestamos_deportivosDTG_Estado.xsc">
+      <DependentUpon>dbs_prestamos_deportivosDTG_Estado.xsd</DependentUpon>
+    </None>
+    <None Include="dbs_prestamos_deportivosDTG_Estado.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbs_prestamos_deportivosDTG_Estado.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbs_prestamos_deportivosDTG_Estado.xss">
+      <DependentUpon>dbs_prestamos_deportivosDTG_Estado.xsd</DependentUpon>
+    </None>
+    <None Include="dbs_prestamos_deportivosDTG_Rol.xsc">
+      <DependentUpon>dbs_prestamos_deportivosDTG_Rol.xsd</DependentUpon>
+    </None>
+    <None Include="dbs_prestamos_deportivosDTG_Rol.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbs_prestamos_deportivosDTG_Rol.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbs_prestamos_deportivosDTG_Rol.xss">
+      <DependentUpon>dbs_prestamos_deportivosDTG_Rol.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

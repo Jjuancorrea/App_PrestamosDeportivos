@@ -1,6 +1,6 @@
 ﻿namespace Presentacion
 {
-    partial class frm_prestamos
+    partial class dtg_prestamos
     {
         /// <summary>
         /// Required designer variable.
@@ -40,6 +40,8 @@
             this.txtDescripcionImplemento = new MaterialSkin.Controls.MaterialTextBox();
             this.txtCantidadPrestamo = new MaterialSkin.Controls.MaterialTextBox();
             this.txtObservaciones = new MaterialSkin.Controls.MaterialMultiLineTextBox2();
+            this.dtg_prestamo = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dtg_prestamo)).BeginInit();
             this.SuspendLayout();
             // 
             // btnNuevo
@@ -105,7 +107,7 @@
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel1.Location = new System.Drawing.Point(168, 18);
+            this.materialLabel1.Location = new System.Drawing.Point(197, 22);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             this.materialLabel1.Size = new System.Drawing.Size(267, 19);
@@ -118,7 +120,7 @@
             this.txtNombre.AnimateReadOnly = false;
             this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNombre.Depth = 0;
-            this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtNombre.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtNombre.Hint = "Nombre persona";
             this.txtNombre.LeadingIcon = null;
             this.txtNombre.Location = new System.Drawing.Point(288, 60);
@@ -137,7 +139,7 @@
             this.txtIdentificacion.AnimateReadOnly = false;
             this.txtIdentificacion.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtIdentificacion.Depth = 0;
-            this.txtIdentificacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtIdentificacion.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtIdentificacion.Hint = "Identificación";
             this.txtIdentificacion.LeadingIcon = null;
             this.txtIdentificacion.Location = new System.Drawing.Point(47, 60);
@@ -155,7 +157,7 @@
             this.txtCodigoImplemento.AnimateReadOnly = false;
             this.txtCodigoImplemento.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCodigoImplemento.Depth = 0;
-            this.txtCodigoImplemento.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtCodigoImplemento.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtCodigoImplemento.Hint = "Código del implemento";
             this.txtCodigoImplemento.LeadingIcon = null;
             this.txtCodigoImplemento.Location = new System.Drawing.Point(47, 116);
@@ -173,7 +175,7 @@
             this.txtDescripcion.AnimateReadOnly = false;
             this.txtDescripcion.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtDescripcion.Depth = 0;
-            this.txtDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtDescripcion.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtDescripcion.Hint = "Descripción";
             this.txtDescripcion.LeadingIcon = null;
             this.txtDescripcion.Location = new System.Drawing.Point(288, 116);
@@ -192,7 +194,7 @@
             this.txtExistencias.AnimateReadOnly = false;
             this.txtExistencias.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtExistencias.Depth = 0;
-            this.txtExistencias.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtExistencias.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtExistencias.Hint = "Existencias";
             this.txtExistencias.LeadingIcon = null;
             this.txtExistencias.Location = new System.Drawing.Point(47, 172);
@@ -212,7 +214,7 @@
             this.txtDescripcionImplemento.AnimateReadOnly = false;
             this.txtDescripcionImplemento.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtDescripcionImplemento.Depth = 0;
-            this.txtDescripcionImplemento.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtDescripcionImplemento.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtDescripcionImplemento.Hint = "Descripción del implemento";
             this.txtDescripcionImplemento.LeadingIcon = null;
             this.txtDescripcionImplemento.Location = new System.Drawing.Point(288, 172);
@@ -231,7 +233,7 @@
             this.txtCantidadPrestamo.AnimateReadOnly = false;
             this.txtCantidadPrestamo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCantidadPrestamo.Depth = 0;
-            this.txtCantidadPrestamo.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtCantidadPrestamo.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtCantidadPrestamo.Hint = "Cantidad a prestar";
             this.txtCantidadPrestamo.LeadingIcon = null;
             this.txtCantidadPrestamo.Location = new System.Drawing.Point(47, 228);
@@ -270,11 +272,23 @@
             this.txtObservaciones.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txtObservaciones.UseSystemPasswordChar = false;
             // 
-            // frm_prestamos
+            // dtg_prestamo
+            // 
+            this.dtg_prestamo.AllowUserToAddRows = false;
+            this.dtg_prestamo.AllowUserToDeleteRows = false;
+            this.dtg_prestamo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtg_prestamo.Location = new System.Drawing.Point(47, 332);
+            this.dtg_prestamo.Name = "dtg_prestamo";
+            this.dtg_prestamo.ReadOnly = true;
+            this.dtg_prestamo.Size = new System.Drawing.Size(587, 150);
+            this.dtg_prestamo.TabIndex = 36;
+            // 
+            // dtg_prestamos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(716, 366);
+            this.ClientSize = new System.Drawing.Size(682, 512);
+            this.Controls.Add(this.dtg_prestamo);
             this.Controls.Add(this.txtObservaciones);
             this.Controls.Add(this.txtCantidadPrestamo);
             this.Controls.Add(this.txtDescripcionImplemento);
@@ -287,8 +301,9 @@
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.btnPrestamo);
             this.Controls.Add(this.materialLabel1);
-            this.Name = "frm_prestamos";
+            this.Name = "dtg_prestamos";
             this.Text = "frm_prestamos";
+            ((System.ComponentModel.ISupportInitialize)(this.dtg_prestamo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -307,5 +322,6 @@
         private MaterialSkin.Controls.MaterialTextBox txtDescripcionImplemento;
         private MaterialSkin.Controls.MaterialTextBox txtCantidadPrestamo;
         private MaterialSkin.Controls.MaterialMultiLineTextBox2 txtObservaciones;
+        private System.Windows.Forms.DataGridView dtg_prestamo;
     }
 }
