@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsEstado.cs" />
+    <Compile Include="clsImplementos.cs" />
     <Compile Include="clsModuloUsuarios.cs" />
     <Compile Include="clsConexion.cs" />
     <Compile Include="clsRol.cs" />

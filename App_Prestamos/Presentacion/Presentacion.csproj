@@ -55,6 +55,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dbs_prestamos_deportivosDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="dbs_prestamos_deportivosDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbs_prestamos_deportivosDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="dbs_prestamos_deportivosDTG_Estado.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -149,6 +154,17 @@
     </None>
     <None Include="dbs_prestamos_deportivosDataSet.xss">
       <DependentUpon>dbs_prestamos_deportivosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbs_prestamos_deportivosDataSet1.xsc">
+      <DependentUpon>dbs_prestamos_deportivosDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dbs_prestamos_deportivosDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbs_prestamos_deportivosDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbs_prestamos_deportivosDataSet1.xss">
+      <DependentUpon>dbs_prestamos_deportivosDataSet1.xsd</DependentUpon>
     </None>
     <None Include="dbs_prestamos_deportivosDTG_Estado.xsc">
       <DependentUpon>dbs_prestamos_deportivosDTG_Estado.xsd</DependentUpon>

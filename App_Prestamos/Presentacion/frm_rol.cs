@@ -32,8 +32,8 @@ namespace Presentacion
             Negocio.clsRol obj_cls_agregarRol = new Negocio.clsRol();
             obj_cls_agregarRol.fnt_guardar
                 (
-                txtNombre.Text,
                 txtCodigo.Text,
+                txtNombre.Text,
                 txtNomenclatura.Text
                 );
         }
