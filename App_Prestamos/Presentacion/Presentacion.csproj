@@ -60,6 +60,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dbs_prestamos_deportivosDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="dbs_prestamos_deportivosDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbs_prestamos_deportivosDataSet2.xsd</DependentUpon>
+    </Compile>
     <Compile Include="dbs_prestamos_deportivosDTG_Estado.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -69,6 +74,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>dbs_prestamos_deportivosDTG_Rol.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbs_prestamos_deportivosSexo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbs_prestamos_deportivosSexo.xsd</DependentUpon>
     </Compile>
     <Compile Include="frmModuloUsuarios.cs">
       <SubType>Form</SubType>
@@ -166,6 +176,17 @@
     <None Include="dbs_prestamos_deportivosDataSet1.xss">
       <DependentUpon>dbs_prestamos_deportivosDataSet1.xsd</DependentUpon>
     </None>
+    <None Include="dbs_prestamos_deportivosDataSet2.xsc">
+      <DependentUpon>dbs_prestamos_deportivosDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dbs_prestamos_deportivosDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbs_prestamos_deportivosDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbs_prestamos_deportivosDataSet2.xss">
+      <DependentUpon>dbs_prestamos_deportivosDataSet2.xsd</DependentUpon>
+    </None>
     <None Include="dbs_prestamos_deportivosDTG_Estado.xsc">
       <DependentUpon>dbs_prestamos_deportivosDTG_Estado.xsd</DependentUpon>
     </None>
@@ -187,6 +208,17 @@
     </None>
     <None Include="dbs_prestamos_deportivosDTG_Rol.xss">
       <DependentUpon>dbs_prestamos_deportivosDTG_Rol.xsd</DependentUpon>
+    </None>
+    <None Include="dbs_prestamos_deportivosSexo.xsc">
+      <DependentUpon>dbs_prestamos_deportivosSexo.xsd</DependentUpon>
+    </None>
+    <None Include="dbs_prestamos_deportivosSexo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbs_prestamos_deportivosSexo.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbs_prestamos_deportivosSexo.xss">
+      <DependentUpon>dbs_prestamos_deportivosSexo.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

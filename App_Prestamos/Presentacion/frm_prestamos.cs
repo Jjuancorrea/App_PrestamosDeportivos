@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Presentacion
 {
-    public partial class dtg_prestamos : Form
+    public partial class frm_prestamos : Form
     {
-        public dtg_prestamos()
+        public frm_prestamos()
         {
             InitializeComponent();
         }
@@ -50,6 +50,7 @@ namespace Presentacion
                     txtIdentificacion.Text
                     );
                 txtNombre.Text = objPrestamo.getNombre();
+
             }
         }
     }

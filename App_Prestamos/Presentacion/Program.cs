@@ -16,11 +16,7 @@ namespace Presentacion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new frmModuloUsuarios());
-            //Application.Run(new frm_implementos());
-            //Application.Run(new frm_estado());
-            //Application.Run(new frm_rol());
-            //Application.Run(new frm_sexo());
+            Application.Run(new frm_prestamos());
         }
     }
 }

@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Negocio
 {
@@ -28,6 +29,7 @@ namespace Negocio
                 str_nombre = Convert.ToString(Lectura[0]);
             }
             objConecta.connection.Close();
+            MessageBox.Show(str_nombre, "Registro", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
         public string getNombre() { return this.str_nombre; }
     }

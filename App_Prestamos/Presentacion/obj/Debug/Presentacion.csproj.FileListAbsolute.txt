@@ -35,6 +35,6 @@ C:\Users\AP-SE105-01\Documents\JC\App_PrestamosDeportivos\App_Prestamos\Presenta
 C:\Users\AP-SE105-01\Documents\JC\App_PrestamosDeportivos\App_Prestamos\Presentacion\obj\Debug\Presentacion.pdb
 C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\obj\Debug\Presentacion.frm_estado.resources
 C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\obj\Debug\Presentacion.frm_login.resources
-C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\obj\Debug\Presentacion.dtg_prestamos.resources
 C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\obj\Debug\Presentacion.frm_rol.resources
 C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\obj\Debug\Presentacion.frm_sexo.resources
+C:\Users\AP-SE105-01\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos\Presentacion\obj\Debug\Presentacion.frm_prestamos.resources

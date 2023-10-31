@@ -45,8 +45,18 @@
             this.btnActualizar = new MaterialSkin.Controls.MaterialButton();
             this.btnNuevo = new MaterialSkin.Controls.MaterialButton();
             this.cbxSexo = new MaterialSkin.Controls.MaterialComboBox();
+            this.dbs_prestamos_deportivosSexo = new Presentacion.dbs_prestamos_deportivosSexo();
+            this.tblsexoBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.tbl_sexoTableAdapter1 = new Presentacion.dbs_prestamos_deportivosSexoTableAdapters.tbl_sexoTableAdapter();
+            this.dbs_prestamos_deportivosDataSet2 = new Presentacion.dbs_prestamos_deportivosDataSet2();
+            this.tblsexoBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.tbl_sexoTableAdapter2 = new Presentacion.dbs_prestamos_deportivosDataSet2TableAdapters.tbl_sexoTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.tblsexoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dbs_prestamos_deportivosDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbs_prestamos_deportivosSexo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblsexoBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbs_prestamos_deportivosDataSet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblsexoBindingSource2)).BeginInit();
             this.SuspendLayout();
             // 
             // txtIdentificacion
@@ -285,7 +295,9 @@
             // 
             this.cbxSexo.AutoResize = false;
             this.cbxSexo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.cbxSexo.DataSource = this.tblsexoBindingSource2;
             this.cbxSexo.Depth = 0;
+            this.cbxSexo.DisplayMember = "Nombre";
             this.cbxSexo.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
             this.cbxSexo.DropDownHeight = 174;
             this.cbxSexo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -303,6 +315,35 @@
             this.cbxSexo.Size = new System.Drawing.Size(522, 49);
             this.cbxSexo.StartIndex = 0;
             this.cbxSexo.TabIndex = 13;
+            this.cbxSexo.ValueMember = "PkId";
+            // 
+            // dbs_prestamos_deportivosSexo
+            // 
+            this.dbs_prestamos_deportivosSexo.DataSetName = "dbs_prestamos_deportivosSexo";
+            this.dbs_prestamos_deportivosSexo.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tblsexoBindingSource1
+            // 
+            this.tblsexoBindingSource1.DataMember = "tbl_sexo";
+            this.tblsexoBindingSource1.DataSource = this.dbs_prestamos_deportivosSexo;
+            // 
+            // tbl_sexoTableAdapter1
+            // 
+            this.tbl_sexoTableAdapter1.ClearBeforeFill = true;
+            // 
+            // dbs_prestamos_deportivosDataSet2
+            // 
+            this.dbs_prestamos_deportivosDataSet2.DataSetName = "dbs_prestamos_deportivosDataSet2";
+            this.dbs_prestamos_deportivosDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tblsexoBindingSource2
+            // 
+            this.tblsexoBindingSource2.DataMember = "tbl_sexo";
+            this.tblsexoBindingSource2.DataSource = this.dbs_prestamos_deportivosDataSet2;
+            // 
+            // tbl_sexoTableAdapter2
+            // 
+            this.tbl_sexoTableAdapter2.ClearBeforeFill = true;
             // 
             // frmModuloUsuarios
             // 
@@ -327,6 +368,10 @@
             this.Load += new System.EventHandler(this.frmModuloUsuarios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tblsexoBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dbs_prestamos_deportivosDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbs_prestamos_deportivosSexo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblsexoBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbs_prestamos_deportivosDataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblsexoBindingSource2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -350,6 +395,12 @@
         private MaterialSkin.Controls.MaterialButton btnActualizar;
         private MaterialSkin.Controls.MaterialButton btnNuevo;
         private MaterialSkin.Controls.MaterialComboBox cbxSexo;
+        private dbs_prestamos_deportivosSexo dbs_prestamos_deportivosSexo;
+        private System.Windows.Forms.BindingSource tblsexoBindingSource1;
+        private dbs_prestamos_deportivosSexoTableAdapters.tbl_sexoTableAdapter tbl_sexoTableAdapter1;
+        private dbs_prestamos_deportivosDataSet2 dbs_prestamos_deportivosDataSet2;
+        private System.Windows.Forms.BindingSource tblsexoBindingSource2;
+        private dbs_prestamos_deportivosDataSet2TableAdapters.tbl_sexoTableAdapter tbl_sexoTableAdapter2;
     }
 }
 

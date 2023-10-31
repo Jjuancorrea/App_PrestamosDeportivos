@@ -1,6 +1,6 @@
 ﻿namespace Presentacion
 {
-    partial class dtg_prestamos
+    partial class frm_prestamos
     {
         /// <summary>
         /// Required designer variable.
@@ -32,7 +32,6 @@
             this.btnAgregar = new MaterialSkin.Controls.MaterialButton();
             this.btnPrestamo = new MaterialSkin.Controls.MaterialButton();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.txtNombre = new MaterialSkin.Controls.MaterialTextBox();
             this.txtIdentificacion = new MaterialSkin.Controls.MaterialTextBox();
             this.txtCodigoImplemento = new MaterialSkin.Controls.MaterialTextBox();
             this.txtDescripcion = new MaterialSkin.Controls.MaterialTextBox();
@@ -41,6 +40,7 @@
             this.txtCantidadPrestamo = new MaterialSkin.Controls.MaterialTextBox();
             this.txtObservaciones = new MaterialSkin.Controls.MaterialMultiLineTextBox2();
             this.dtg_prestamo = new System.Windows.Forms.DataGridView();
+            this.txtNombre = new MaterialSkin.Controls.MaterialTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_prestamo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -114,25 +114,6 @@
             this.materialLabel1.TabIndex = 21;
             this.materialLabel1.Text = "Formulario de registro de prestamos\r\n";
             this.materialLabel1.Click += new System.EventHandler(this.materialLabel1_Click);
-            // 
-            // txtNombre
-            // 
-            this.txtNombre.AnimateReadOnly = false;
-            this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNombre.Depth = 0;
-            this.txtNombre.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.txtNombre.Hint = "Nombre persona";
-            this.txtNombre.LeadingIcon = null;
-            this.txtNombre.Location = new System.Drawing.Point(288, 60);
-            this.txtNombre.MaxLength = 50;
-            this.txtNombre.MouseState = MaterialSkin.MouseState.OUT;
-            this.txtNombre.Multiline = false;
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.ReadOnly = true;
-            this.txtNombre.Size = new System.Drawing.Size(346, 50);
-            this.txtNombre.TabIndex = 29;
-            this.txtNombre.Text = "";
-            this.txtNombre.TrailingIcon = null;
             // 
             // txtIdentificacion
             // 
@@ -284,11 +265,30 @@
             this.dtg_prestamo.Size = new System.Drawing.Size(587, 150);
             this.dtg_prestamo.TabIndex = 36;
             // 
-            // dtg_prestamos
+            // txtNombre
+            // 
+            this.txtNombre.AnimateReadOnly = false;
+            this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNombre.Depth = 0;
+            this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtNombre.Hint = "Nombre persona";
+            this.txtNombre.LeadingIcon = null;
+            this.txtNombre.Location = new System.Drawing.Point(288, 60);
+            this.txtNombre.MaxLength = 50;
+            this.txtNombre.MouseState = MaterialSkin.MouseState.OUT;
+            this.txtNombre.Multiline = false;
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(346, 50);
+            this.txtNombre.TabIndex = 37;
+            this.txtNombre.Text = "";
+            this.txtNombre.TrailingIcon = null;
+            // 
+            // frm_prestamos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(682, 512);
+            this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.dtg_prestamo);
             this.Controls.Add(this.txtObservaciones);
             this.Controls.Add(this.txtCantidadPrestamo);
@@ -296,13 +296,12 @@
             this.Controls.Add(this.txtExistencias);
             this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.txtCodigoImplemento);
-            this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.txtIdentificacion);
             this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.btnPrestamo);
             this.Controls.Add(this.materialLabel1);
-            this.Name = "dtg_prestamos";
+            this.Name = "frm_prestamos";
             this.Text = "frm_prestamos";
             ((System.ComponentModel.ISupportInitialize)(this.dtg_prestamo)).EndInit();
             this.ResumeLayout(false);
@@ -315,7 +314,6 @@
         private MaterialSkin.Controls.MaterialButton btnAgregar;
         private MaterialSkin.Controls.MaterialButton btnPrestamo;
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
-        private MaterialSkin.Controls.MaterialTextBox txtNombre;
         private MaterialSkin.Controls.MaterialTextBox txtIdentificacion;
         private MaterialSkin.Controls.MaterialTextBox txtCodigoImplemento;
         private MaterialSkin.Controls.MaterialTextBox txtDescripcion;
@@ -324,5 +322,6 @@
         private MaterialSkin.Controls.MaterialTextBox txtCantidadPrestamo;
         private MaterialSkin.Controls.MaterialMultiLineTextBox2 txtObservaciones;
         private System.Windows.Forms.DataGridView dtg_prestamo;
+        private MaterialSkin.Controls.MaterialTextBox txtNombre;
     }
 }
