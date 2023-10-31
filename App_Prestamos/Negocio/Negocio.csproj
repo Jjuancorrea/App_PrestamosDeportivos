@@ -46,6 +46,7 @@
     <Compile Include="clsImplementos.cs" />
     <Compile Include="clsModuloUsuarios.cs" />
     <Compile Include="clsConexion.cs" />
+    <Compile Include="clsPrestamo.cs" />
     <Compile Include="clsRol.cs" />
     <Compile Include="clsSexo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

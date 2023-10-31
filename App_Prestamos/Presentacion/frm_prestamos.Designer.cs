@@ -151,6 +151,7 @@
             this.txtIdentificacion.TabIndex = 28;
             this.txtIdentificacion.Text = "";
             this.txtIdentificacion.TrailingIcon = null;
+            this.txtIdentificacion.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtIdentificacion_KeyUp);
             // 
             // txtCodigoImplemento
             // 

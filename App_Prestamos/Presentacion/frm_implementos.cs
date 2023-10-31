@@ -72,5 +72,18 @@ namespace Presentacion
                 txtValor.Text = Convert.ToString(obj_cls_buscarImplemento.getValor());
             }
         }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+            Negocio.clsImplementos obj_Actualizar= new Negocio.clsImplementos();
+            obj_Actualizar.fnt_actualizar
+                (
+                txtCodigo.Text,
+                txtNombre.Text,
+                txtDescripcion.Text,
+                Convert.ToInt16(txtCantidad.Text),
+                Convert.ToDouble(txtValor.Text)
+                );
+        }
     }
 }

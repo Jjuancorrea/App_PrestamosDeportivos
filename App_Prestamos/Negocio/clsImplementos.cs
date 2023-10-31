@@ -47,6 +47,27 @@ namespace Negocio
             }
 
         }
+        public void fnt_actualizar(string codigo, string nombre, string descripcion, int cantidad, double valor)
+        {
+            try
+            {
+
+                SqlCommand con = new SqlCommand("SP_ActualizarImplemento", objConecta.connection);
+                con.CommandType = CommandType.StoredProcedure;
+                con.Parameters.AddWithValue("@codigo", codigo);
+                con.Parameters.AddWithValue("@nombre", nombre);
+                con.Parameters.AddWithValue("@especificaciones", descripcion);
+                con.Parameters.AddWithValue("@cantidad", cantidad);
+                con.Parameters.AddWithValue("@valor", valor);
+                objConecta.connection.Open();
+                con.ExecuteNonQuery();
+                objConecta.connection.Close();
+                MessageBox.Show("Implemento actualizado con éxito", "Registro", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception) { MessageBox.Show("Faltan campos / este registro ya existe", "Registro", MessageBoxButtons.OK, MessageBoxIcon.Error); }
+            
+
+        }
         public void fnt_consultar(string codigo)
         {
             //MessageBox.Show(codigo, "Registro", MessageBoxButtons.OK, MessageBoxIcon.Error);

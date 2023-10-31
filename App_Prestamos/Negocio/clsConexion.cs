@@ -9,6 +9,6 @@ namespace Negocio
 {
     public class clsConexion
     {
-        public SqlConnection connection = new SqlConnection("Data Source=AP-SE105-10\\SQLEXPRESS;Initial Catalog=dbs_prestamos_deportivos;Integrated Security=True");
+        public SqlConnection connection = new SqlConnection("Data Source=AP-SE105-16\\SQLEXPRESS;Initial Catalog=dbs_prestamos_deportivos;Integrated Security=True");
     }
 }

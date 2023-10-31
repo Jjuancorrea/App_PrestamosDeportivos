@@ -39,5 +39,18 @@ namespace Presentacion
             dtg_prestamo.DataSource = null;
             txtIdentificacion.Focus();
         }
+
+        private void txtIdentificacion_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                Negocio.clsPrestamo objPrestamo = new Negocio.clsPrestamo();
+                objPrestamo.fnt_consultar
+                    (
+                    txtIdentificacion.Text
+                    );
+                txtNombre.Text = objPrestamo.getNombre();
+            }
+        }
     }
 }
