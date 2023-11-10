@@ -58,10 +58,11 @@ namespace Presentacion
                 txtPapellido.Text,
                 txtSapellido.Text,
                 txtContacto.Text,
-                cbxSexo.SelectedText,
                 txtCorreo.Text,
-                txtDireccion.Text
-                
+                txtDireccion.Text,
+                cbxSexo.SelectedValue.ToString()
+
+
                 );
         }
 
